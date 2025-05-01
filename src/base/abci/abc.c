@@ -56077,7 +56077,7 @@ usage:
     Abc_Print( -2, "usage: &odc [-N num] [-vh]\n" );
     Abc_Print( -2, "\t          generates the complement of the ODC for the node\n" );
     Abc_Print( -2, "\t-N num  : the node ID [default = undefined]\n" );
-    Abc_Print( -2, "\t-v      : toggles printing verbose information [default = %d]\n", fVerbose ? "yes": "no" );
+    Abc_Print( -2, "\t-v      : toggles printing verbose information [default = %s]\n", fVerbose ? "yes": "no" );
     Abc_Print( -2, "\t-h      : print the command usage\n");
     return 1;
 }
